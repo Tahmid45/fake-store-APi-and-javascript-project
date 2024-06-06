@@ -1,0 +1,40 @@
+.carousel img{
+    width: 1920px;
+    height: 800px;
+
+}
+.main-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.cart-container{
+    width:50%;
+    box-shadow:4px 4px 8px grey;
+    margin:auto;
+    text-align: center;
+    display: fixed;
+}
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:15px;
+    width:100%;
+    margin: auto;
+    text-align:center;
+
+}
+.card{
+    border:1px solid gray;
+    padding:10px;
+}
+.card-img{
+    width:150px;
+    height: 150px;
+}
+
+.cart-info{
+    display: felx;
+    justify-content: space-around;
+}
